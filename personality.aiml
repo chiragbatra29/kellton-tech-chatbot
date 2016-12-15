@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+ <category><pattern>HI</pattern>
+<template><random>
+<li> How may I assist you today?</li>
+<li> it's great to see you!,How can i help uhh</li>
+<li> In case you want to ask something specific, I am just a ping away.</li>
+
+</random></template>
+</category>
+
+<category>
+<pattern>
+    how are *
+</pattern>
+<template>fine  how about you</template>
+</category>
+<category>
+    <pattern>
+         ^ nice meeting you ^ 
+    </pattern>
+    <template>
+        same here
+    </template>
+</category>
+<category>
+
+    <pattern>
+     ^ catch ^ later
+    </pattern>
+    <template>
+        sure
+    </template>
+</category>
+<category>
+    <pattern>
+        _ run ^
+    </pattern>
+    <template>
+       <srai>  ^ catch ^ later</srai> bye
+    </template>
+</category>
+<category>
+    <pattern> _ rush ^</pattern>
+    <template>
+       <srai>  ^ catch ^ later</srai> bye
+    </template>
+</category>
+<category>
+    <pattern>Thanks ^</pattern>
+    <template>
+    <random>   
+    <li>thanks for talking to me.</li>
+    <li>Welcome, Keep Visiting.</li>
+    </random>Do you want anything more info</template>
+</category>
+<category>
+    <pattern>no</pattern><that>Thanks ^</that>
+    <template>Ok bye<br/>Have a nice day</template>
+</category>
+<category>
+    <pattern>yes</pattern><that>Thanks ^</that>
+    <template>Ok</template>
+</category>
+<category>
+    <pattern>thanks no</pattern>
+    <template><srai>Thanks</srai></template>
+</category>
+<categroy><pattern>no thanks</pattern>
+    <template><srai> Thanks ^</srai></template>
+</categroy>
+<category>
+    <pattern>
+        * trying *
+    </pattern>
+    <template>
+     <srai># Thanks #</srai>
+    </template>
+</category>
+<category>
+    <pattern>
+        Ok  Good 
+    </pattern>
+    <that> I am not</that>
+    <template>
+        it is a live human support
+        <srai>hi</srai>
+    </template>
+</category>
+<category>
+    <pattern>
+       good then
+    </pattern>
+    
+    <template>
+        May I know your Name and Email Id please?
+    </template>
+</category>
+<category>
+    <pattern>
+       _ meet * appointment ^
+    </pattern>
+    
+    <template>
+        <srai>regarding</srai>
+    </template>
+</category>
+<category>
+    <pattern>
+        regarding
+    </pattern>
+    <template>
+        May I know what is this in regards to
+    </template>
+</category>
+<category>
+    <pattern>
+        ^ contact ^ 
+    </pattern>
+    <template>
+    <random><li>You can write to inbound@kelltontech.com, our team may forward it to him.</li> 
+        <li>Please send your career related queries to hr@kelltontech.com</li>
+    </random>
+       
+    </template>
+</category>
+
+<category><pattern>FILTER INAPPROPRIATE</pattern>
+<template><random>
+<li>That's not appropriate.</li>
+<li>That's not up my alley.</li>
+<li>You can do better than that.</li>
+<li>That's beyond my capacity.</li>
+<li>How can you inspire yourself?</li>
+<li>Let's talk about your creativity.</li>
+<li>Let's avoid your animal instincts.</li>
+<li>I hope you find a healthy outlet for your fantasies.</li>
+<li>How can you channel that into creative expression?</li>
+</random></template>
+</category>
+</aiml>

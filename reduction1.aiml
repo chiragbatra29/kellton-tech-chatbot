@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<category>
+    <pattern>am  working *</pattern>
+    <template>
+        ok
+    </template>
+</category>
+<category>
+    <pattern># fine ^</pattern>
+    <template>any thing else u want to ask</template>
+</category>
+<category>
+    <pattern> # ok # </pattern><that>any thing else u want to ask</that>
+    <template>yes m listening</template>
+    
+</category>
+</aiml>

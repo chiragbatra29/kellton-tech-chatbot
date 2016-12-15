@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<category>
+    <pattern> I ^ new to * website</pattern>
+    <template>Do you need a <star index="2"/> website</template>
+</category>
+<category>
+    <pattern>^ means</pattern>
+    <template>You want to know fresher recruitment process of our Indian offices</template>
+</category>
+<category>
+    <pattern>we do offer *</pattern>
+    <template>You can drop a mail on info@kelltontech.com.We will get back to you if required.</template>
+</category>
+<category>
+    <pattern>_ mean</pattern>
+    <template><srai>^ means</srai></template>
+</category>
+<category>
+    <pattern> * yesterday but no respond *</pattern>
+    <template>He will get back if required.</template>
+</category>
+<category>
+    <pattern> * earlier but no respond *</pattern>
+    <template>He will get back if required.</template>
+</category>
+
+<category>
+    <pattern>* details * connect  *  </pattern>
+    <that>He will get back if required</that>
+    <template>You dont need to do that
+        <srai> * earlier but no respond *</srai>
+    </template>
+</category>
+<category>
+    <pattern>^ how * reply</pattern>
+    <template>Our India office will be open tomorrow morning. They should reply as soon as they check your email.</template>
+</category>
+<category>
+    <pattern>* answer ^</pattern>
+    <template><srai> ^ how * reply</srai></template>
+</category>
+<category>
+    <pattern>*<set>expertise</set> developer ^</pattern>
+    <template> Sure, we have expertise in that</template>
+</category>
+<category><pattern>* developer ^</pattern>
+    <template>srry we dont work on it but we can help u with other services like <br/>  Web, Social, Mobility, Analytics, Cloud, IoT and ERP services </template>
+</category>
+<category>
+    <pattern>_ new website * Mobile ^ app ^</pattern>
+    <template><srai>  * developer ^</srai></template>
+</category>
+<category>
+    <pattern>* develop ^ e commerce portal # </pattern>
+    <template><srai>  * developer ^</srai> </template>
+</category>
+<category>
+    <pattern>_ named *</pattern>
+    <template>ok <srai> regarding </srai> </template>
+</category> 
+<category>
+    <pattern>* software company #</pattern>
+    <template><srai> regarding </srai></template>
+</category>
+<category><pattern>need to *</pattern>
+    <template><srai>details</srai></template>
+</category>
+
+<category>
+    <pattern>^ Downers Grove office ^</pattern>
+    <template>Hi ,This is Kellton Tech Support.</template>
+</category>
+<category>
+    <pattern>^ holiday in week ^</pattern>
+    <template>Saturday and Sunday is closed.</template>
+</category>
+
+</aiml>

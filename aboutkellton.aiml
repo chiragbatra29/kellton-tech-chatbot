@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<category>
+    <pattern>^ old name _ company ^ </pattern>
+    <template>old name?</template>
+</category>
+<category>
+    <pattern>_ new company ^</pattern>
+    <template>We have acquired several companies in the past</template>
+</category>
+<category><pattern>yes</pattern><that>We have acquired several companies in the past</that>
+    <template>we have been in this business from 1993</template>
+</category>
+<category>
+    <pattern> Does Kellton works on<set>expertise</set></pattern>
+    <template>yes it does on <star/> .</template>
+</category>
+<category>
+    <pattern> Does Kellton works on * </pattern>
+    <template>no</template>
+</category>
+ 
+<category>
+    <pattern>^ services</pattern>
+    <template> IT services company
+        <random>
+            <li>Read Online from Website Kelltontech.com</li>
+            <li>Kellton tech is drupal solutions provider</li>
+            <li>check this : http://www.kelltontech.com/services</li>
+            <li>We provide Web, Social, Mobility, Analytics, Cloud, IoT and ERP services</li>
+        </random>Please share your requirements.
+    </template>
+</category>
+<category>
+    <pattern>kellton tech services #</pattern>
+    <template><srai>^ services</srai></template>
+</category>
+<category>
+    <pattern>* company do ^</pattern>
+   <template><srai>^ services</srai></template>
+</category>
+<category>
+    <pattern>* services ^ provided ^</pattern>
+      <template><srai>^ services</srai></template>
+</category>
+<category>
+    <pattern> name </pattern>
+    <template>My Name is Steve.</template>
+</category>
+<category>
+    <pattern>who are you</pattern>
+    <template>My Name is Steve.</template>
+</category>
+<category>
+    <pattern>^ name ^</pattern>
+     <template><srai>name</srai></template>
+</category>
+
+</aiml>

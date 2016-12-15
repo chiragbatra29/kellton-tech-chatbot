@@ -1,0 +1,50 @@
+<aiml version="2.0">
+        
+<category><pattern># NEED PLACEMENT PAPERS ^</pattern><template>u mean interview questions</template></category>
+
+
+        
+<category><pattern>_ interview questions ^ </pattern><template>may i know what is it regards to</template></category>
+
+
+        
+<category><pattern>OK</pattern><template>yes</template></category>
+
+
+        
+<category><pattern># GIVE * DETAILS ^ COMPANY</pattern><template>i would suggest to check the same on our website</template></category>
+
+
+        
+<category><pattern>^ FOR ^ INTERVIEW ^</pattern><template>ok,search online on our website</template></category>
+
+
+        
+<category><pattern>CAN U * QUESTIONS ^ REGARDING ^ INTERVIEW #</pattern><template>i cant provide uh the questions but i can give u links for the same</template></category>
+
+
+        
+<category><pattern> _ I AM A SHAREHOLDER</pattern><template>Yes  For all such queries you can write to parminder.bhatia@kelltontech.com</template></category>
+
+
+        
+<category><pattern>GREAT TO KNOW</pattern><template>yep!!</template></category>
+
+
+        
+
+
+
+        
+<category><pattern> * JOINING LOCATION</pattern><template>for this u can contact hr </template></category>
+
+
+        
+<category><pattern>* JOB BONUS *</pattern><template>no , no such bonus in our policy</template></category>
+
+
+        
+
+
+
+</aiml>

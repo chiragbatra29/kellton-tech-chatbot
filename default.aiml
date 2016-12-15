@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <category>
+      <pattern>
+           no tq #
+      </pattern>
+      <template>
+          <srai>bye</srai>
+      </template>
+  </category>
+  <category>
+      <pattern> my mail id ^</pattern>
+      <template><random><li>I will appreciate if you can share your phone number along with your availability as well</li>
+        <li> My business development team will get in touch with you </li> 
+     <li>They will be able to share solution along with ballpark estimates</li> </random>
+         </template>
+  </category>
+  <category>
+      <pattern> ^ need *</pattern>
+      <template>glad to help let me know about your requirements</template>
+  </category>
+  
+      <category><pattern>_</pattern><that>glad to help let me know about your requirements</that>
+<template>Thanks for showing interest  our team will contact you soon</template></category>
+   
+  
+
+  <category>
+      <pattern> ^ ping after * </pattern>
+      <template>ok by call or email</template>
+  </category>
+  <category>
+      <pattern>*</pattern><that>ok by call or email</that>
+      <template><random>
+          <li>thanks for your details</li>
+          <li>I will arrange a meeting asap</li>
+          <li>Is there anything else I can help you with</li>
+      </random>
+</template>
+  </category>
+  <category>
+      <pattern> ok Have a great day</pattern>
+      <template>Good by</template>
+  </category>
+   
+ 
+
+  <category>
+      <pattern> * website</pattern>
+      <template>Do you simply wish to have a script written by us or the entire website needs to be developed     
+      Can I have your contact details</template>
+  </category>
+  <category>
+      <pattern>*</pattern><that>Do you simply wish to have a script written by us or the entire website needs to be developed * </that>
+ 
+ <template>thanku</template> </category>
+
+<category>
+    <pattern>_ able to complete</pattern><that></that>
+
+  <template> Yes, we have a team size of 1150+ and have been in the industry from 1993<br/>So we will definitely be able to execute your project</template>
+  
+  </category>
+  <category>
+      <pattern>
+          # tutorials _ helpful ^ beginners
+      </pattern>
+      <template>
+            <srai>bye</srai>
+      </template>
+  </category>
+   <category>
+      <pattern>
+          great, thanks *
+      </pattern>
+      <template>
+            <srai>bye</srai>
+      </template>
+  </category>
+   <category>
+      <pattern>
+          you have a good one
+      </pattern>
+      <template>
+            <srai>bye</srai>
+      </template>
+  </category>
+  <category>
+      <pattern>
+          i am just looking through the website
+      </pattern>
+      <template>
+            <srai>bye</srai>
+      </template>
+  </category>
+  <category>
+  <pattern>
+    bye
+  </pattern>
+  <template>
+  <random><li> Good bye, have a great day!</li>
+    <li>Okay, thanks for visiting us.</li>  
+  </random>
+  </template>
+  </category>
+<category>
+    <pattern>ok </pattern><that> All our services are chargeable</that>
+    <template>Someone from our Business team will get back to you</template>
+</category>
+<category>
+    <pattern>_ mail id * india #</pattern>
+    <template>all</template>
+</category>
+<category>
+    <pattern>is this *</pattern>
+    <template> Yes <person/></template>
+</category>
+<category>
+    <pattern>same *</pattern>
+    <template>Yes , it is</template>
+</category>
+<category>
+    <pattern>
+        wooo
+    </pattern>
+    <template>
+        <random>
+            <li>yaahhh</li>
+            <li>yes</li>
+            <li>hurrey</li>
+            <li>Wahhoo!!!</li>
+        </random>
+    </template>
+</category>
+<category>
+    <pattern>
+        my dream *
+         </pattern>
+        <template>
+            That's good to hear
+        </template>
+</category>
+<category>
+    <pattern>
+        * work # software company #
+    </pattern>
+    <template>
+        <srai>my dream *</srai>Kellton Tech is a rising name with 1500+ employees
+    </template>
+</category>
+<category>
+      <pattern>
+         ^ u indian #
+      </pattern>
+      <template>
+            yes
+      </template>
+  </category>
+</aiml>

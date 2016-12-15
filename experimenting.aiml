@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<category>
+    <pattern>hello sir,i am *</pattern>
+    <template>hi <star/></template>
+</category>
+<category>
+    <pattern>hi *</pattern>
+    <template><srai>hi</srai></template>
+</category>
+<category>
+    <pattern>hi</pattern>
+    <template> 
+        <random>
+          <li>hi  this is steve. In case you want to ask something specific, I am just a ping away.</li>
+          <li> hi How may I assist you today</li>
+        </random>
+    </template>
+</category>
+<category>
+    <pattern>this side * speaking from *</pattern>
+    <template>hi <star index ="1"></star></template>
+</category>
+<category>
+    <pattern>good *</pattern>
+    <template>Good <star/><srai>Hi</srai></template>
+</category>
+<category>
+      <pattern>gd *</pattern>
+      <template>gd <star/><br/><srai>hi</srai></template>
+</category>
+<category>
+    <pattern>Hello</pattern>
+    <template><srai>Hi</srai></template>
+</category>
+<category>
+    <pattern>i am *</pattern>
+    <template><star index="2"></star><br/><srai>hi</srai></template>
+</category>
+<category>
+    <pattern>Yes</pattern>
+    <template><srai>Hi</srai></template>
+</category>
+<category>
+    <pattern>hlo</pattern>
+    <template><srai>Hi</srai></template>
+</category>
+<category>
+    <pattern>My name is *</pattern>
+    <template> <star/><srai>hi</srai></template>
+</category>
+<category>
+    <pattern>this is *</pattern>
+    <template>helo <star/><srai>hi</srai></template>
+</category>
+<category>
+    <pattern>Myself *</pattern>
+    <template>hello <star/><srai>hi</srai></template>
+</category>
+<category>
+    <pattern>* is my name</pattern>
+    <template><star/><srai>hi</srai></template>
+</category>
+<category>
+    <pattern>* Help ^</pattern>
+    <template>Let me know how can i help you</template>
+</category>
+<category>
+    <pattern>^ nice to meet ^</pattern>
+    <template>Same Here</template>
+</category>
+
+</aiml>

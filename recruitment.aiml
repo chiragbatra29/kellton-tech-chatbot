@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<category>
+    <pattern>* Recruitment process ^</pattern>
+    <template><random>
+       <li>K, May I know where you are based</li> 
+       <li>Your location?</li>
+       <li>Please send your career related queries to hr@kelltontech.com</li>
+    </random></template>
+</category>
+<category>
+    <pattern>*</pattern><that>Your location</that>
+    <template>Please send your career related queries to hr@kelltontech.com</template>
+</category>
+<category>
+    <pattern>*</pattern><that>K, May I know where you are based</that>
+    <template>Please send your career related queries to hr@kelltontech.com</template>
+</category>
+<category>
+   <pattern> _ join ^ company ^ </pattern>
+    <template><srai>* Recruitment process ^</srai></template>
+</category>
+<category>
+    <pattern>* procedure * hiring *</pattern>
+    <template><srai>* Recruitment process ^</srai></template>
+</category>
+<category>
+    <pattern>* placement *</pattern>
+    <template><srai>* Recruitment process ^</srai></template>
+</category>
+<category>
+    <pattern>^ details * interview #</pattern>
+    <template><srai>interview</srai></template>
+</category>
+<category>
+    <pattern>help * recruitment *</pattern>
+    <template><srai>* Recruitment process ^</srai></template>
+</category>
+<category>
+    <pattern>^ group discussion ^</pattern>
+    <template>Put your query in the email to HR.<br/>They will be right people to guide you about the complete process</template>
+</category>
+<category>
+    <pattern>^ gd ^</pattern>
+    <template><srai>^ group discussion ^</srai></template>
+</category>
+<category>
+    <pattern>_ hiring *</pattern>
+    <template><srai>* Recruitment process ^</srai></template>
+</category>
+<category>
+    <pattern>_ campus drive ^</pattern>
+    <template><random>
+            <li>Its depend upon which are you applied for.</li>
+            <li>Its would be mention on applictaion form </li>
+            <li>Check Notification from your respective college.</li>
+    </random></template>
+</category>
+<category>
+    <pattern>^ company ^ start ^ recruit ^</pattern>
+    <template>It depends on our requirement</template>
+</category>
+<category>
+    <pattern>* career opportunity with Kellton Tech</pattern>
+    <template>
+        <random>
+            <li>Can you drop an email to HR. </li>
+            <li>Please send your career related queries to hr@kelltontech.com</li>
+            <li>You need to check with our recruitment team</li>
+            <li>Please send your career related queries to hr@kelltontech.com .Our recruitment team will get back to you in case of a suitable vacancy</li>
+        </random>
+    </template>
+</category>
+<category>
+    <pattern>* relocation ^</pattern>
+    <template>depending on ur performance</template>
+</category>
+<category>
+    <pattern>_</pattern><that>You need to check with our recruitment team</that>
+    <template>Please send your career related queries to hr@kelltontech.com .Our recruitment team will get back to you in case of a suitable vacancy</template>
+</category>
+<category>
+    <pattern>* training period ^</pattern>
+    <template><srai>* career opportunity with Kellton Tech</srai></template>
+</category>
+<category>
+    <pattern>* placement ^</pattern>
+    <template><srai>* career opportunity with Kellton Tech</srai></template>
+</category>
+<category>
+    <pattern> # any opening #</pattern>
+    <template><srai>* career opportunity with Kellton Tech</srai>they will contact u if any</template>
+</category>
+<category><pattern># do u have any * openings #</pattern>
+    <template><srai>* career opportunity with Kellton Tech</srai></template>
+</category>
+<category>
+    <pattern>^ any vacancy ^</pattern>
+    <template><srai>* career opportunity with Kellton Tech</srai></template>
+</category>
+<category>
+    <pattern>^ requirement * at * location</pattern>
+    <template><srai>* career opportunity with Kellton Tech</srai></template>
+</category>
+<category>
+    <pattern>^ looking for ^ job ^</pattern>
+    <template><srai>* career opportunity with Kellton Tech</srai></template>
+</category>
+<category>
+    <pattern>_ job interview in *</pattern>
+    <template><srai>* career opportunity with Kellton Tech</srai></template>
+</category>
+<category>
+    <pattern>^ need no *</pattern>
+    <template><srai>* career opportunity with Kellton Tech</srai></template>
+</category>
+<category>
+    <pattern>^  job *</pattern>
+    <template><srai>* career opportunity with Kellton Tech</srai></template>
+</category>
+<category>
+    <pattern> ^  jobs *</pattern>
+    <template><srai>* career opportunity with Kellton Tech</srai></template>
+</category>
+<category>
+    <pattern>^ apply for current opening</pattern>
+    <template><srai>* career opportunity with Kellton Tech</srai></template>
+</category>
+<category>
+    <pattern>^ get previous placement ^ papers</pattern>
+    <template><srai>* career opportunity with Kellton Tech</srai></template>
+</category>
+<category>
+    <pattern>I heard about vacancy *</pattern>
+    <template><srai>* career opportunity with Kellton Tech</srai></template>
+</category>
+<category>
+    <pattern>^ projects work with your company ^</pattern>
+    <template><srai>* career opportunity with Kellton Tech</srai></template>
+</category>
+<category>
+    <pattern>^ placment drive ^</pattern>
+    <template><srai>* career opportunity with Kellton Tech</srai></template>
+</category>
+<category>
+    <pattern> _ procedure ^</pattern>
+    <template><srai>* career opportunity with Kellton Tech</srai></template>
+</category>
+<category>
+    <pattern>^ joining process ^</pattern>
+    <template><srai>* career opportunity with Kellton Tech</srai></template>
+</category>
+<category>
+    <pattern>how to join ^</pattern>
+    <template><srai>* career opportunity with Kellton Tech</srai></template>
+</category>
+<category>
+    <pattern>^ job opportunity ^</pattern>
+    <template><srai>* career opportunity with Kellton Tech</srai></template>
+</category>
+<category>
+    <pattern>^ searching ^ opportunity in  *</pattern>
+    <template>do u mean job in <star index = "3"/> </template>
+</category>
+<category>
+    <pattern>* apply</pattern>
+    <template><srai>* career opportunity with Kellton Tech</srai></template>
+</category>
+<category>
+    <pattern>* HR ^</pattern>
+    <template><srai>* career opportunity with Kellton Tech</srai></template>
+</category>
+<category><pattern># hr ^ number #</pattern>
+    <template>u can contact HR on hr@kelltontech.com </template>
+</category>
+<category>
+    <pattern>* recruitment criteria ^</pattern>
+    <template><srai>* career opportunity with Kellton Tech</srai></template>
+</category>
+<category>
+    <pattern>^ hire fresher ^</pattern>
+    <template><srai>* career opportunity with Kellton Tech</srai></template>
+</category>
+<category>
+    <pattern>^ experience ^</pattern>
+    <template><srai>* career opportunity with Kellton Tech</srai></template>
+</category>
+<category>
+    <pattern>^ project ^ with ^ company ^</pattern>
+    <template>Send us Your Name and Contact details to our email info@kelltontech.com</template>
+</category>
+<category>
+    <pattern>^ direct ^ email ^</pattern>
+    <template>you can copy info@kelltontech.com in the email.</template>
+</category>
+<category>
+    <pattern>what * requirement for campus placement</pattern>
+    <template>Contact you college in this regard.<br/>They will give you the required info.</template>
+</category>
+
+<category>
+    <pattern>^ career ^ page ^</pattern>
+    <template>http://www.kelltontech.com/careers</template>
+</category>
+<category>
+    <pattern>interview</pattern>
+    <template><random>
+        <li>Read the job description and prepare accordingly</li>
+        <li>Read online.</li>
+        <li>Please search online.</li>
+    </random>Whatever is related to your profile.</template>
+</category>
+<category>
+    <pattern>^ suggest * interview ^</pattern>
+    <template><srai>interview</srai></template>
+</category>
+<category>
+    <pattern>^ prepare ^</pattern>
+    <template><srai>interview</srai></template>
+</category>
+<category>
+    <pattern>^ placement question ^</pattern>
+    <template><srai>interview</srai></template>
+</category>
+<category>
+    <pattern>^ requirements ^</pattern>
+    <template><srai>interview</srai></template>
+</category>
+<category>
+    <pattern>^ tutorial ^</pattern>
+    <template><srai>interview</srai></template>
+</category>
+<category>
+    <pattern>* inteview ^</pattern>
+    <template><srai>interview</srai></template>
+</category>
+<category>
+    <pattern> #  questions * kellton tech ^ </pattern>
+    <template><srai>* career opportunity with Kellton Tech</srai></template>
+</category>
+<category>
+    <pattern> * eligibility criteria  ^  </pattern>
+    <template><srai>* career opportunity with Kellton Tech</srai></template>
+</category>
+
+<category>
+    <pattern> _ email ^ company  </pattern>
+    <template>all the best</template>
+</category>
+</aiml>

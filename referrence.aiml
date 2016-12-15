@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<category>
+    <pattern>* KLGame</pattern>
+    <template>
+         here is the detailed information on KLGame
+         http://www.kelltontech.com/products/klgame
+    </template>
+</category>
+<category>
+     <pattern> * about ^ company #  </pattern>
+     <template>Ok , Please visit our website: www.kelltontech.com</template>
+</category>
+<category>
+    <pattern>_ details ^</pattern>
+    <template>Could you please explain in detail?</template>
+</category>
+<category>
+    <pattern>_ office location ^</pattern>
+    <template>Please check the above link : http://www.kelltontech.com/our-global-presence</template>
+</category>
+<category>
+    <pattern>where _ located ^</pattern>
+    <template>Please check the above link : http://www.kelltontech.com/our-global-presence</template>
+</category>
+<category>
+    <pattern>may i know * </pattern>
+    <template><srai>* about ^ company # </srai></template>
+</category>
+<category>
+    <pattern>where * located</pattern>
+    <template><srai>_ office location ^</srai></template>
+</category>
+<category>
+    <pattern># wondering * North America #</pattern>
+    <template><srai>_ office location ^</srai></template>
+</category>
+<category>
+    <pattern># wondering * EUROPE #</pattern>
+    <template><srai>_ office location ^</srai></template>
+</category>
+<category>
+    <pattern># wondering * NY/NJ Area #</pattern>
+    <template><srai>_ office location ^</srai></template>
+</category>
+<category>
+    <pattern># wondering * Ireland #</pattern>
+    <template><srai>_ office location ^</srai></template>
+</category>
+<category>
+    <pattern># wondering * D.C. Metro Area #</pattern>
+    <template><srai>_ office location ^</srai></template>
+</category>
+<category>
+    <pattern># wondering * United Kingdom (U.K.) #</pattern>
+    <template><srai>_ office location ^</srai></template>
+</category>
+<category>
+    <pattern># wondering * Lucknow #</pattern>
+    <template><srai>_ office location ^</srai></template>
+</category>
+<category>
+    <pattern># wondering *  Guwahati #</pattern>
+    <template> <srai>_ office location ^</srai></template>
+</category>
+<category>
+    <pattern># wondering *  San Francisco Bay Area #</pattern>
+    <template><srai>_ office location ^</srai></template>
+</category>
+<category>
+    <pattern># wondering *  Chicago Area #</pattern>
+    <template><srai>_ office location ^</srai></template>
+</category>
+<category>
+    <pattern># wondering *  Houston #</pattern>
+    <template><srai>_ office location ^</srai></template>
+</category>
+<category>
+    <pattern># wondering *  GLOBAL DATA CENTER #</pattern>
+    <template><srai>_ office location ^</srai></template>
+</category>
+<category>
+    <pattern># need to know #</pattern>
+<template>Ok , Please visit our website: www.kelltontech.com</template>
+</category>
+<category>
+    <pattern># location *  USA #</pattern>
+    <template><srai>_ office location ^</srai></template>
+</category>
+
+</aiml>
